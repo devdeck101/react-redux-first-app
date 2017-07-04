@@ -10,7 +10,7 @@ export default class Home extends Component {
         action: () => hashHistory.push('/releases')
     };
     BacklogHomeCard = {
-        title: 'Backlog',
+        title: 'Backlog Planning',
         text: 'Input your Release',
         action: () => hashHistory.push('/backlog')
     };
